@@ -76,12 +76,14 @@
     <!-- Template END -->
 
     <!-- SVG Background -->
-    <picture>
-        <source srcset="./images/bg-desktop.svg" media="(min-width: 1024px)">
-        <source srcset="./images/bg-mobile.svg" media="(max-width: 1023px)">
-        <img class="absolute top-0 bottom-0 left-0 right-0 w-full lg:fixed lg:h-full lg:object-cover -z-10"
-            src="./images/bg-mobile.svg" alt="Background illustrations">
-    </picture>
+    <div>
+        <picture>
+            <source srcset="./images/bg-desktop.svg" media="(min-width: 1024px)">
+            <source srcset="./images/bg-mobile.svg" media="(max-width: 1023px)">
+            <img class="absolute top-0 bottom-0 left-0 right-0 w-full lg:fixed lg:h-full lg:object-cover -z-10"
+                src="./images/bg-mobile.svg" alt="Background illustrations">
+        </picture>
+    </div>
 
     <!-- Content -->
     <main class="z-10 w-full max-w-lg mx-4 mt-5 mb-20 overflow-hidden lg:max-w-screen-lg">
